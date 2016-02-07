@@ -1,0 +1,31 @@
+<setup>
+	loglevel = 0
+	logsize = 100
+	version = 1.00
+	encrypt = 1
+user = steve
+password = 12345
+</setup>
+<profiles>
+	<profile1>
+		active = yes
+		limit = 5
+		message_token = error
+	</profile1>
+</profiles>
+<messages>
+<clear>
+		text = This is a Clear error message
+		level = 0
+		subsystem = 1.1
+		ci_type = 1.10
+		metricid = 1.10:18
+	</clear>
+	<error>
+		text = This is a Critical error message: $errorMessage
+		level = 5
+		subsystem = 1.1
+		ci_type = 1.10
+		metricid = 1.10:18
+	</error>
+</messages>
