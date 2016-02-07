@@ -4,4 +4,4 @@ Please check UIM documentation or contact your sales rep for more information
 Copy nimsoft.jar and TwoFish.jar files from the SDK to the lib project directory.
 Configure your build path
 
-#The ant build file is experimental and can be ignored for now
+The ant build file is experimental and can be ignored for now
