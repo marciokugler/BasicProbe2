@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author rodma08
+ * @author marciokugler
  *
  */
 package example;
